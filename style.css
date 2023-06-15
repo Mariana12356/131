@@ -1,0 +1,26 @@
+body{
+    background-image: url(base1000.png);
+    background-size: contain;
+    background-repeat: repeat;
+    overflow: hidden;
+    text-align: center;
+}
+
+.heading{
+    width:95%;
+    padding: 0;
+    padding-top:20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: #ffc0cb;
+    color:white ;
+    border: 10px double white;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+canvas {
+    border: 10px solid white;
+    border-radius: 20px;
+    box-shadow: 20px 20px 20px rgb(243, 134, 152);
+}
