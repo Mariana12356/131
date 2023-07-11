@@ -37,10 +37,10 @@ function draw() {
         for(var e = 0; e < objects.length; e++){
             nome = objects[e].label
             confianca = floor(objects[e].confidence * 100)
-            x = floor(objects[e].x) + 100
-            y = floor(objects[e].y) + 150
-            largura = floor(objects[e].width) 
-            altura = floor(objects[e].height) 
+            x = floor(objects[e].x) + 50
+            y = floor(objects[e].y) + 50
+            largura = floor(objects[e].width) + 100
+            altura = floor(objects[e].height) + 100
             text(nome + " " + confianca + "%", x, y)
             stroke("#ffc0cb")
             rect(x, y, largura, altura)
